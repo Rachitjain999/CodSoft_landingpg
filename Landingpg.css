@@ -1,0 +1,96 @@
+header{
+    width: 1525px;
+    height: 99vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url('shoes2.jpeg');
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color:beige; 
+    justify-content: space-around;
+    align-items:center;
+    display:inline-flex;
+
+}
+.logo{
+    font-size: 2.5cm;
+    letter-spacing: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 5px black;
+    background: linear-gradient(
+        0deg, black, white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Menu a{
+    padding: 10px 35px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25PX;
+    letter-spacing: 2px;
+    background: linear-gradient(
+        120deg, Black, white, purple, red, brown, green);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position:relative;
+}
+.Menu a:before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height:100%;
+    border-bottom: 2px solid white;
+    transition: 0.3s linear;
+}
+.Menu a:hover:before{
+    width:90%;
+
+}
+
+.Login a{
+    text-decoration: solid;
+    font-size: 40px;
+    padding:20px;
+    background: linear-gradient(20deg, black,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition:0.3s linear;
+}
+.Login a:hover{
+    /* color:red; */
+    /* border: 2px solid white; */
+    -webkit-text-stroke: 2px grey;
+     
+
+}
+.rcb{
+    max-width: 500px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    text-align: center;
+}
+.rcb h1{
+    letter-spacing: 10px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rcb a{
+    text-decoration: none;
+    color: white;
+    font-size: 2cm;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+    letter-spacing: 5px;
+    transition: 0.3s;
+}
+.rcb a:hover{
+    background: transparent;
+    border: 5px solid grey;
+}
